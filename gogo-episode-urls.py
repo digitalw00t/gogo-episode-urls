@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import argparse
 import json
 
-__VERSION__ = "v0.1.4"
+__VERSION__ = "v0.1.0"
 
 # Global debug level variable
 DEBUG_LEVEL = 0
