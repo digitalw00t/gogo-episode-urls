@@ -21,7 +21,7 @@ def parse_arguments():
     """Parse command-line arguments."""
     global DEBUG_LEVEL
     parser = argparse.ArgumentParser(description='gogoanime-show_info.py: Web scraping script for gogoanime3.net')
-    parser.add_argument('url_part', help='The part of the URL to be scraped (e.g., "category/isekai-nonbiri-nouka-dub")')
+    parser.add_argument('url_part', help='The part of the URL to be scraped (e.g., "isekai-nonbiri-nouka-dub")')
     parser.add_argument('--debug', type=int, choices=[0, 1, 2, 3], default=0, help='Set debug level (0: None, 1: Info, 2: Verbose, 3: Full HTML dump)')
     args = parser.parse_args()
     DEBUG_LEVEL = args.debug
