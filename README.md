@@ -1,5 +1,3 @@
----
-
 # gogoanime-show_info.py
 
 ## Overview
